@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+  
+body {
+   font-family: Arial, sans-serif;
+}
+
+.content-text,
+.navbar-logo {
+    font-family: 'Prata', serif;
+}
+
+.footer-navbar-list a,
+.navbar-list a,
+.logo {
+    font-family: 'Prata', serif;
+    font-size: 16px;
+}
