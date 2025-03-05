@@ -113,6 +113,11 @@ a:hover{
     transition: all 0.3s ease;
 }
 
+.btn a{
+    color:black;
+    border:1px solid red;
+}
+
 .btn:hover,.second-section-content-btn:hover,.form-btn:hover,.footer-btn:hover {
     background-color: #D5C9BE; 
     color: #4b4646; 
@@ -123,6 +128,7 @@ a:hover{
 .btn:active {
     transform: translateY(0); 
     background-color: #B0A69D; 
+    color:black;
 }
 
 .first-section-image{
@@ -407,6 +413,10 @@ input::placeholder {
         color:black;
     }
 
+    .btn a,.form-btn a{
+        color:black;
+    }
+
     .first-section-image{
         margin-top:30px;
         width:100%;
@@ -454,6 +464,7 @@ input::placeholder {
         width:50%;
         margin: 20px auto;
         font-size:14px;
+        color:black;
     }
 
     .third-section{
@@ -487,6 +498,7 @@ input::placeholder {
     .form-btn{
         width:60%;
         font-size:18px;
+        color:black
     }
 
     .third-section-container{
